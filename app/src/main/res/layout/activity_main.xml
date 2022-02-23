@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Show My All Projects"/>
+
+   <Button
+    android:id="@+id/form"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Form"/>
+
+    <Button
+        android:id="@+id/intent123"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent Images"/>
+    <Button
+        android:id="@+id/shared"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shared Preferences"/>
+    <Button
+        android:id="@+id/calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"/>
+
+
+</LinearLayout>
